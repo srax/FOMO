@@ -12,10 +12,10 @@ import { DynamicBalanceAnimation } from "@/components/DynamicBalanceAnimation"
 import { DotLottieReact } from '@lottiefiles/dotlottie-react'
 
 // For development, using Solana's devnet. In production, use mainnet-beta with a proper RPC provider
-const SOLANA_RPC_ENDPOINT = "https://mainnet.helius-rpc.com/?api-key=736c5963-3a95-4d8c-b779-37fef304f6b3"
+const SOLANA_RPC_ENDPOINT = "replace this with your own rpc endpoint"
 const connection = new Connection(SOLANA_RPC_ENDPOINT, {
   commitment: "confirmed",
-  wsEndpoint: "wss://mainnet.helius-rpc.com/?api-key=736c5963-3a95-4d8c-b779-37fef304f6b3"
+  wsEndpoint: "replace this with your own ws endpoint"
 })
 
 // FOMO token mint address
